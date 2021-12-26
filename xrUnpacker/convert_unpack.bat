@@ -1,3 +1,5 @@
+::unpack db directory
+
 mkdir .\unpacked
 for %%f in (.\db\*.db*) do (
     converter.exe -unpack -xdb %%f -dir .\unpacked
